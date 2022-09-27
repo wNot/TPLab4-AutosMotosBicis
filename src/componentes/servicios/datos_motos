@@ -1,0 +1,14 @@
+const datos_motos = 
+[
+{id:1, marca:'Honda',cilindros:'3', color: "rojo"},
+{id:2, marca:'Honda',cilindros:'4', color:"verde"},
+{id:3, marca:'Toyota',cilindros:'3', color: "amarillo"},
+{id:4, marca:'Siambretta',cilindros:'2', color: "blanco"},
+];
+
+
+export function getMotos()
+{return datos_motos;}
+
+export function getMotosid(id)
+{return datos_motos.find(a=> a.id === id) || null;}
