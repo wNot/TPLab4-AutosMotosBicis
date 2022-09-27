@@ -37,7 +37,7 @@ function Home ()
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarColor03">
                 <ul class="navbar-nav me-auto text-light">
-                    <h1>Footer</h1>
+                <Link to = "/home" class="nav-link text-decoration-none text-light"> Venta sobre ruedas</Link>
                 </ul>
                 </div>
             </div>

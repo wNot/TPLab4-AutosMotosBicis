@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Opciones from './componentes/opciones';
@@ -22,7 +22,8 @@ root.render(
  <Routes>
 
 
-    <Route path='/'element={<Home></Home>}></Route>
+    {/* <Route path='/'element={<Home></Home>}></Route> */}
+    <Route path='/'element={<Home></Home>}/>
     <Route path='/home'element={<Home></Home>}>
       <Route path='opciones'element={<Opciones></Opciones>}> </Route>
       <Route path='datos'element={<Datos></Datos>}> 

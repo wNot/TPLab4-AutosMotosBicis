@@ -5,9 +5,8 @@ function AcercaDe ()
 
         <>
         
-        <h1>Venta Sobre Ruedas v1.0</h1>
-        <h3>@ACME 2022</h3>
-        
+            <h1>Venta sobre Ruedas</h1>
+            <h3>@ACME 2022</h3>
         
         </>
     );
