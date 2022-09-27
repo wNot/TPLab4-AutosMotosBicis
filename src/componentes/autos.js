@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Datos from "./datos";
+import Dgatos from "./datos";
 import { getAutos } from "./servicios/datos_autos";
 
 function Autos ()
