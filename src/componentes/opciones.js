@@ -14,6 +14,7 @@ function Opciones ()
         </select><br/>
         <input type="checkbox" id="cond" name="cond" value="Agente de retencion" /> Agente de retencion<br/>
         <input type="checkbox" id="imp" name="imp" value="Importador" /> Importador
+        <h4>Aplicación creada con:</h4>
 
 
 
